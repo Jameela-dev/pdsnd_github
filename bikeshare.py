@@ -74,8 +74,6 @@ def get_filters():
 
     Asks user to specify a city, month, and day to analyze.
 
-
-
     Returns:
 
         (str) city - name of the city to analyze
@@ -113,8 +111,6 @@ def load_data(city, month, day):
 
     Loads data for the specified city and filters by month and day if applicable.
 
-
-
     Args:
 
         (str) city - name of the city to analyze
@@ -133,15 +129,9 @@ def load_data(city, month, day):
 
     df = pd.read_csv(CITY_DATA[city])
 
-
-
-
     # convert the Start Time column to datetime
 
     df['Start Time'] = pd.to_datetime(df['Start Time'])
-
-
-
 
     # extract month, day of week, hour from Start Time to create new columns
 
