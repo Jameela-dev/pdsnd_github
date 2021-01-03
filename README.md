@@ -2,14 +2,16 @@
 Include the date you created this project and README file.
 
 ### Project Title
-Replace the Project Title
+US_Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
-
+My project is about the bicycle sharing system, I analyzed data on bicycles and peak hours, the stations receiving the most users, also the ages of users and the time they spend at their other destination.
 ### Files used
-Include the files used
+Bikeshare.py
+chicago.csv
+washington.csv
+new_york_city.csv
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.w3schools.com/python/pandas_dataframes.asp
